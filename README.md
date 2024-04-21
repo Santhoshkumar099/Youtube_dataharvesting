@@ -1,39 +1,35 @@
 # Youtube Dataharvesting using SQL and Streamlit
 
-Overview
+# Overview
 This project aims to demonstrate how to harvest and analyze YouTube data using SQL queries and visualize the results using Streamlit, a Python library for building interactive web applications.
 
-Features
+# Features
 Harvest YouTube data using the YouTube Data API.
 Store the harvested data in a SQL database for analysis.
 Perform SQL queries to extract insights from the data.
 Visualize the data and insights using Streamlit.
-Requirements
+# Requirements
 Python 3.x
 Streamlit
 Google API Client Library for Python
 SQL Database (e.g., SQLite, MySQL, PostgreSQL)
-Installation
+# Installation
 Clone this repository:
-bash
-Copy code
-git clone https://github.com/your_username/your_repository.git
+
+1.github clone https://github.com/Santhoshkumar099/Youtube_dataharvestin
 Install the required Python packages:
-Copy code
-pip install -r requirements.txt
-Set up API credentials for the YouTube Data API.
-Configure your SQL database connection details in config.py.
-Usage
+2.pip install -r requirements.txt
+# Set up API credentials for the YouTube Data API.
+Configure your SQL database connection details. 
+# Usage
 Run the Streamlit application:
-arduino
-Copy code
 streamlit run app.py
 Access the application through the provided URL.
 Use the interface to perform SQL queries and visualize the YouTube data.
 Configuration
 In config.py, you can configure the following settings:
 
-Database connection details.
+# Database connection details.
 API key for the YouTube Data API.
 File Structure
 app.py: Main Streamlit application script.
