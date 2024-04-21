@@ -21,13 +21,13 @@ Install the required Python packages:
 2.pip install -r requirements.txt
 # Set up API credentials for the YouTube Data API.
 Configure your SQL database connection details. 
-# Usage
-Run the Streamlit application:
-streamlit run app.py
-Access the application through the provided URL.
-Use the interface to perform SQL queries and visualize the YouTube data.
-Configuration
-In config.py, you can configure the following settings:
+## Credits
+
+- [Streamlit](https://streamlit.io/): Python library for building interactive web applications.
+- [YouTube Data API Documentation](https://developers.google.com/youtube/v3): Official documentation for the YouTube Data API.
+- [Python MySQL Database Access](https://github.com/mysql/mysql-connector-python): Library for accessing MySQL databases from Python.
+- [SQLite Documentation](https://www.sqlite.org/index.html): Official documentation for SQLite.
+
 
 # Database connection details.
 API key for the YouTube Data API.
